@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+    line-height: 1em;
+    color: #272727;
+    
+}
+
+nav {
+    margin: 0;
+    padding-top: 6%;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #d87093;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    padding: 5% 0%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    font-size: 150%;
+}
+
+header {
+    margin-left: 17%;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    color: #009fb7;
+    border-bottom: solid 5px #009fb7;
+    font-size: 150%;
+}
+
+h2 a {
+    color: #009fb7;    
+}
+
+h3 {
+    color: #d87093;
+    font-size: 125%;
+    border-bottom: solid 3px #d87093;
+}
+
+h4 {
+    border-bottom: solid 1px #272727;
+}
+
+main {
+    margin: auto;
+    margin-left: 17%;    
+}
+
+main a {
+    color:#d87093;
+}
+
+p {
+    line-height: 1em;
+}
+
+/* For all tables */
+table {
+    width: 100%;
+    
+}
+
+table, th, td {
+    border: 3px solid #fed766;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background-color: #fed766;
+}
+
+.tagColumn {
+    width: 25%;
+}
+/* tr, td, th {
+    padding: 5px;
+    text-align: justify;
+
+} */
+
+footer {
+    width: auto;
+    margin-left: 17%;
+    font-size: 16px;
+
+}

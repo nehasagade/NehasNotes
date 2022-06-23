@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="./styles/stylesheet.css">
+        <title>Neha's Notes</title>
+       
+
+    </head>
+
+    <body>
+        <header><h1>Neha's Notes</h1></header>
+
+        <nav>
+            <ul>
+                <li class="about" class="active"><a  href="index.html">Home</a></li>
+                <li class="webDesign"><a href="#webDesign">Website Design</a></li>
+                <li class="htmlSection"><a href="#htmlSection">HTML</a></li>
+                <li class="cssSection"><a href="#cssSection">CSS</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="about">
+                <h2>About</h2>
+                <p>Welcome! I made this website as a useful reference for basic web development. It's really for people who already know how to make websites and just need a cheat sheet/reminder.
+                The website is divided into a few different sections, which you can access from the navigation on the left.</p>
+                <p>Happy coding!</p>
+            </section>
+            
+            <section id="webDesign">
+                <h2>Website Design Fundamentals</h2>
+                <h3>Create a Sitemap</h3>
+                <p>Sitemaps are used to outline the number of pages in a website. It looks kind of like a flowchart! 
+                    Here's an example:
+                </p>
+                <img src="./images/sitemap.png" alt="A quick example of a sitemap" width="800" height="300">
+                <br>
+                <h3>Create a Wireframe</h3>
+                <p>A wireframe is a mock-up of a web page. It shows the positioning of everything on the page.</p>
+                <img src="./images/wireframes.png" alt="An example of a wireframe" width="700" height="550">
+            </section>
+
+            <section id="htmlSection">
+                <h2>HTML</h2>
+                <p>Okay, now the good stuff. This a reference for HTML5. Here's a <a href="./files/html_template.html">template</a> for a basic html page.</p>                
+                <div>
+                    <h3>Main Layout</h3>
+                    <p>Some tags you'll need for the main layout of the web page.</p>
+                    <table>
+                        <tr>
+                            <th class="tagColumn">Tag</th>
+                            <th>Usage</th>
+                        </tr>
+    
+                        <tr>
+                           <td>&lt;-- !--&gt;</td> 
+                           <td>Comments in HTML</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;!DOCTYPE&gt;</td> 
+                            <td>Defines the document type.</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;html&gt;</td> 
+                            <td>Defines the root of the page</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;head&gt;</td>
+                            <td>Contains metadata of the page</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;title&gt;</td>
+                            <td>The title is displayed in the web browser’s tab. Place it in the head tag</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;main&gt;</td>
+                            <td>The main area of the page</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;body&gt;</td>
+                            <td>Body of the page – usually in the main tags</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;header&gt;</td>
+                            <td>This will be a header on the page</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;nav&gt;</td>
+                            <td>The navigation bar of a page</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;section&gt;</td>
+                            <td>Defines a section – an area of the main page</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;figure&gt;</td>
+                            <td>
+                                The figure tag is usually only one element i.e a picture or diagram. 
+                                Figcaption can be used to add text to the figure
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;div&gt;</td>
+                            <td>
+                                Style tags can be used to apply CSS styling straight into the HTML file. 
+                                It’s not recommended for complex styling.
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;script&gt;</td>
+                            <td>This tag can be used to add Javascript to an HTML file.</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;footer&gt;</td>
+                            <td>The footer section of the page</td>
+                        </tr>
+                    </table>
+    
+                    <h3>Content Tags</h3>
+                    <p>These tags will allow you to add content to your webpage</p>
+    
+                    <table>
+                        <tr>
+                            <th class="tagColumn">Tag</th>
+                            <th>Usage</th>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;a href=” ”&gt;;</td>
+                            <td>A link tag. The link/path should go inside the quotations. You can wrap this around images or text to create clickable text/pictures</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;img src=””&gt;</td>
+                            <td>
+                                The tag to insert images. The link/path to the image will go inside the quotations.
+                                You can also add width and height properties.
+                            </td>
+                        </tr>
+                    </table>
+    
+                    <h3>Tables</h3>
+                    <p>Here is a reference for table tags.</p>
+                    <table>
+                        <tr>
+                            <th class="tagColumn">Tag</th>
+                            <th>Usage</th>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;table&gt;</td>
+                            <td>This creates a table</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;th&gt;</td>
+                            <td>This creates a heading cell</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;tr&gt;</td>
+                            <td>This creates a normal row</td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;td&gt;</td>
+                            <td>This creates a table cell.</td>
+                        </tr>
+                    </table>
+    
+                    <h3>Forms</h3>
+                    <p>Tags to create forms</p>
+    
+                    <table>
+                        <tr>
+                            <th class="tagColumn">Tag</th>
+                            <th>Usage</th>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;form&gt;</td>
+                            <td>
+                                The form tag is used to creat a form for input. 
+                                The input and labels should go inside this tag.
+                                It usually has action and method attributes.
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;input&gt;</td>
+                            <td>
+                                This creates the input box that the user will enter.
+                                The input has three attributes: type, name, and id. 
+                                There are several different type attributes: text, radio, checkbox, submit, button, etc. 
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>&lt;label&gt;</td>
+                            <td>
+                                The label tag creates a label for the input. 
+                                The attribute "for" should be the same as the input's id to join them.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            
+            <section id="cssSection">
+                <h2>CSS</h2>
+                <p>CSS can style web pages, and can even do simple animation. Here are some basic tips.</p>
+
+                <h3>Syntax</h3>
+                <p>There several parts to the CSS syntax: selectors, properties, and values.</p>
+                
+                <h4>Selectors</h4>
+                <p>
+                    HTML tags in CSS become the selectors - they become the areas styles are applied to. 
+                    For example, if you wanted to make the font colour of the nav red, it would look like this: 
+                </p>
+
+                <img src="images/css.jpg">
+                
+                <table>
+                    <tr>
+                        <th class="tagColumn">HTML Tag</th>
+                        <th>CSS Selector</th>
+                        <th>Notes</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;tagName&gt;</td>
+                        <td>tagName{ }</td>
+                        <td>To select areas that are regular HTML tags e.g. nav, main, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tagName class="className"&gt;
+                        </td>
+                        <td>.className { }</td>    
+                        <td>Classes are an attribute used to point to certain sections in the HTML. It can be used by both CSS and JavaScript</td>        
+                    </tr>
+                    <tr>
+                        <td>&lt;tagName id="tagName"&gt;</td>
+                        <td>#idName {}</td>
+                        <td>Ids are also an attribute used to point to a section in the HTML. Unlike classes they are usually used only once.</td>
+                    </tr>
+                </table>
+
+                <h4>Properties and Values</h4>
+                <p>Properties are the thing that you want to style. Values are what the property is set as. In the example above, the property is the color (the font colour) and it has been set to red.<br>The list of properties and their values is pretty exhaustive, but this table goes through some common ones. I recommend W3C Schools or Mozilla Development Notes if you are looking for something really specific.</p>
+
+                <table>
+                    <tr>
+                        <th class="tagColumn">Property</th>
+                        <th>Description</th>
+                        <th>Possible Values</th>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td>Sets a margin around the outside of an element</td>
+                        <td>Can be set using px or percentage. Different values can be specified: top, right, bottom, left. Auto allows the browser to set a suitable margin.</td>
+                    </tr>
+                    <tr>
+                        <td>padding</td>
+                        <td>Padding is the space within an element.</td>
+                        <td>Can be set using px or percentage. Different values can be specified: top, right, bottom, left.</td>    
+                    </tr>
+                    <tr>
+                        <td>colour</td>
+                        <td>The colour of the text</td>
+                        <td>Values can be entered using words (e.g. black), rgb, or hexadecimal codes.</td>
+                    </tr>
+                    <tr>
+                        <td>font-size</td>
+                        <td>Changes the font size</td>
+                        <td>Can be entered as a percentage, em, or in pixels</td>
+                    </tr>
+                    <tr>
+                        <td>font-family</td>
+                        <td>Changes the font</td>
+                        <td>Several fonts can be used. If one is not available, then the next on the list will be used. Fonts with more than one word go in single quotes.</td>
+                    </tr>
+                    <tr>
+                        <td>text-align</td>
+                        <td>Changes the alignment of text</td>
+                        <td>Left, right, center, justify are the main values</td>
+                    </tr>
+                    <tr>
+                        <td>line-height</td>
+                        <td>Changes the heigh of line boxes within an element</td>
+                        <td>Can be specified as em, percentage, or pixels.</td>
+                    </tr>
+                </table>
+
+                <h3>The Box Model</h3>
+                <p>The CSS box wraps around HTML elements. There are several layers to the elements:</p>
+                <img src="images/boxModel.jpg">
+
+                <h3>The Flexbox</h3>
+                <p>
+                    In the box model, there are only really 4 types of positioning - block, inline, table, absolute.
+                    As you can imagine, that's not very flexible. That's where flexbox comes in.<br>
+                    The flexbox model allows different positioning of items within a flex container.<br>There are many
+                    ways to position items, which can be read about on <a href="https://www.w3schools.com/css/css3_flexbox_container.asp">W3Schools</a>.
+                </p>
+                <p>Here are some necessary flexbox properties and values:</p>
+
+                <table>
+                    <tr>
+                        <th class="tagColumn">Property</th>
+                        <th>Description</th>
+                        <th>Possible Values</th>
+                    </tr>
+                    <tr>
+                        <td>display</td>
+                        <td>Sets the display.</td>
+                        <td>For flexbox, this should be used on the container of the items. The value should be flex or inline-flex.</td>
+                    </tr>
+                    <tr>
+                        <td>flex-direction</td>
+                        <td>Specifies the order of the flex items</td>
+                        <td>row, column, and row/column-reverse</td>    
+                    </tr>
+                    <tr>
+                        <td>flex-wrap</td>
+                        <td>Items will not wrap in the container unless this value is uesd</td>
+                        <td>nowrap (default), wrap, wrap-reverse</td>
+                    </tr>
+                    <tr>
+                        <td>justify-content</td>
+                        <td>Aligns items along the main axis</td>
+                        <td>flex-start, flex-end, center, space-between, space-around, space-evenly</td>
+                    </tr>
+                </table>
+            </section>           
+        </main>
+
+        <footer><p>This website was developed as part of Codecademy's Web Development Course.<br>Neha Sagade &copy; 2021</p></footer>
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>
